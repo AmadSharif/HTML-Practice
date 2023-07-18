@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>registration-form</title>
+</head>
+<body>
+    <form align="center">
+        <fieldset style="width: 300px;">
+            <legend style=" color: red;font-size: 30px;font-weight: bold;font-style: italic;text-shadow: 3px 3px 5px #000;">
+                Registration
+            </legend>
+            Name:
+            <input style="background-color: aliceblue;" type="text" name="name"  placeholder="Enter your name" required="" autofocus="">
+            <br/>
+                     <br/>
+            Email*
+            <input style="background-color: aliceblue;" type="email" name="email" placeholder="Enter your Email" required="">
+            <br/>
+            <br/>
+            Age:
+            <input style="background-color: aliceblue;" type="number" name="age" min="18" max="30" placeholder="Enter your age" required="">
+            <br/>
+            <br/>
+            Date of birth:
+            <input style="background-color: aliceblue;" type="date" name="date" value="DoB" required="">
+            <br/>
+            <br/>
+            Gender:
+            <input type="radio" name="gender" value="m" required="">Male
+            <input type="radio" name="gender" value="f" required="">Female
+            <br/>
+            <br/>
+            Hobbies:
+            <input type="checkbox" name="hobbies">Reading
+            <input type="checkbox" name="hobbies">Writing
+            <input type="checkbox" name="hobbies">Cricket
+            <input type="checkbox" name="hobbies">Football
+            <br/>
+            <br/>
+            Address:
+            <textarea style="background-color: aliceblue;" required=""></textarea>
+            <br/>
+            <br/>
+            Country;
+            <select style="background-color: aliceblue;" required="">
+                <option>select country</option>
+                <option  value="Pakistan" >Pakistan</option>
+                <option value="United Arab Emirates" >United Arab Emirates</option>
+                <option value="India" >India</option>
+                <option value="Saudiarabia">Saudiarabia</option>
+                <br/>
+                <br/>
+            </select>
+            <br/>
+            <br/>
+            
+            <input style="background: forestgreen;color: #fff;font-size: 17px;border-radius: 10px;box-shadow: 1px 2px 10px 3px red; font-weight: bold;font-style: oblique; width: 100px; height: 50px;" type="submit" name="submit" value="Register">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
